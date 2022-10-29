@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OscarRicoRo - Personal Portfolio</title>
+  <title>vCard - Personal Portfolio</title>
 
   <!--
     - favicon
@@ -40,8 +40,10 @@
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
+        <figure class="avatar-box">
+          <li><img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80"></li>
+        </figure>
 
-        <img class = "avatar-image" src="./assets/images/my-avatar.png" alt="Richard hanrick" width="200">
 
         <div class="info-content">
           <h1 class="name" title="Richard hanrick">Óscar Rico</h1>
@@ -72,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:oscar.rico101@alu.ulpgc.es" class="contact-link-email">oscar.rico101@alu.ulpgc.es</a>
+              <a href="mailto:oscar.rico101@alu.ulpgc.es" class="contact-link">oscar.rico101@alu.ulpgc.es</a>
             </div>
 
           </li>
@@ -180,7 +182,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Extra</button>
           </li>
 
           <li class="navbar-item">
@@ -207,7 +209,7 @@
 
         <section class="about-text">
           <p>
-            I'm a Data Engineer student on the University school of Las Palmas de Gran Canaria, who is learning all about this data world.
+            I'm a Data Engineer student in the University school of Las Palmas de Gran Canaria, who is learning all about this data world.
             I enjoy challenges, coding and kebabs.
           </p>
 
@@ -255,8 +257,8 @@
                 <h4 class="h4 service-item-title">FSI</h4>
 
                 <p class="service-item-text">
-                    -Acquire the basic concepts on Intelligent Systems </br>
-                    -Use and exploit basic algorithms
+                  -Acquire the basic concepts on Intelligent Systems </br>
+                  -Use and exploit basic algorithms
                 </p>
               </div>
 
@@ -282,24 +284,22 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/HPI.png" alt="Web development icon" width="40">
+                <img src="./assets/images/hpi.png" alt="Web development icon" width="40">
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">HPI</h4>
 
                 <p class="service-item-text">
-                  - Enhance the students' communicative (linguistic and professional) skills and competences considered essential
-                  for working effectively in engineering and technology organizations, using the English language
+                  - Enhance the students' communicative (linguistic and professional) skills and competences using the English language
                 </p>
               </div>
 
             </li>
 
-            <li class="service-item mid">
-
+            <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/IS.png" alt="mobile app icon" width="40">
+                <img src="./assets/images/is.png" alt="mobile app icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -310,7 +310,6 @@
                   - Acquire skills to produce quality software.
                 </p>
               </div>
-
             </li>
 
           </ul>
@@ -321,103 +320,113 @@
         <!--
           - testimonials
         -->
-
         <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Partners</h3>
 
-          <div class="testimonials-list">
+          <div class="container">
+                <div class="content-card-2 box" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  </figure>
 
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwjMw73p7oP7AhVH3RoKHVrYCGUQPAgI" >
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                  </a>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jia Hao</h4>
-              </div>
+                  <h4 class="testimonials-item-title" data-testimonials-title>Jia Hao</h4>
 
-              <div class="content-card" data-testimonials-item>
+                </div>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
+                <div class="content-card-2 box" data-testimonials-item>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Irene Guerra</h4>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  </figure>
 
-              </div>
+                  <h4 class="testimonials-item-title" data-testimonials-title>Joaquín Ibañez</h4>
 
-              <div class="content-card" data-testimonials-item>
+                </div>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gabriel Reyes</h4>
-
-              </div>
-
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Joaquín Ibañez</h4>
-
-              </div>
-
-              <div class="content-card" data-testimonials-item>
+              <div class="content-card-2 box" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gerardo León</h4>
+                <h4 class="testimonials-item-title" data-testimonials-title>Mara Pareja</h4>
 
               </div>
 
-              <div class="content-card" data-testimonials-item>
+              <div class="content-card-2 box" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Raúl García</h4>
+                <h4 class="testimonials-item-title" data-testimonials-title>Susana Suarez</h4>
 
               </div>
 
-              <div class="content-card" data-testimonials-item>
+              <div class="content-card-2 box" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Susana Suarez</h4>
+                <h4 class="testimonials-item-title" data-testimonials-title>Jaime Ballesteros</h4>
 
               </div>
 
-              <div class="content-card" data-testimonials-item>
+              <div class="content-card-2 box" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
                   <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mara Pareja</h4>
+                <h4 class="testimonials-item-title" data-testimonials-title>Gabriel Reyes</h4>
 
               </div>
 
-              <div class="content-card" data-testimonials-item>
+            <div class="content-card-2 box" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+              </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Miguel Cabeza</h4>
+              <h4 class="testimonials-item-title" data-testimonials-title>Irene Guerra</h4>
 
-              </div>
+            </div>
 
+
+            <div class="content-card-2 box" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="testimonials-item-title" data-testimonials-title>Raúl García</h4>
+
+            </div>
+
+            <div class="content-card-2 box" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="testimonials-item-title" data-testimonials-title>Gerardo León</h4>
+
+            </div>
+
+
+            <div class="content-card-2 box" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="testimonials-item-title" data-testimonials-title>Miguel Cabeza</h4>
+
+            </div>
           </div>
+
 
         </section>
 
@@ -475,45 +484,13 @@
 
           <h3 class="h3 clients-title">Clients</h3>
 
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
+          <div class="clients-item">
+             <a href="https://www.ulpgc.es/">
+               <center>
+                 <img src="./assets/images/ulpgc.png" alt="client logo">
+               </center>
+             </a>
+          </div>
 
         </section>
 
@@ -552,22 +529,19 @@
               <span>2021 — Present</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                This is the university where I'm actually studying
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Official Languages School</h4>
+              <h4 class="h4 timeline-item-title">Official Languague School</h4>
 
-              <span>2019 — 2020</span>
+              <span>2020 — 2021</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                Here I got my B2 certificate
               </p>
 
             </li>
@@ -576,12 +550,10 @@
 
               <h4 class="h4 timeline-item-title">High school of Gran Canaria</h4>
 
-              <span>2014 — 2020</span>
+              <span>2015 — 2021</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                In this 6 years I got my high school and bachelor's certificate
               </p>
 
             </li>
@@ -604,42 +576,12 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Marine Datathon</h4>
 
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
+              <span>2022 — 2023</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                This was my first Datathon
               </p>
 
             </li>
@@ -657,12 +599,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
+                <h5 class="h5">Python</h5>
+                <data value="60">60%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
 
             </li>
@@ -670,7 +612,20 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">Java</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
                 <data value="70">70%</data>
               </div>
 
@@ -683,25 +638,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
+                <h5 class="h5">CSS</h5>
+                <data value="60">60%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
 
             </li>
@@ -735,15 +677,19 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>IC</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>ME</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>FSI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>DACD</button>
             </li>
 
           </ul>
@@ -767,15 +713,19 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>IC</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>ME</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>FSI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>DACD</button>
               </li>
 
             </ul>
@@ -784,164 +734,74 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="ic">
+              <a href="https://github.com/OscarRicoRo/Shell">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/shell.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Shell</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">IC2</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="me">
+              <a href="https://github.com/OscarRicoRo/ShinyWeb">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/shiny.png" alt="finance" loading="lazy" style="height = 200px;">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Shiny Web</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">ME</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="fsi">
+              <a href="https://github.com/OscarRicoRo/FSI">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/metro.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Metro GPS</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">FSI</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="dacd">
+              <a href="https://github.com/OscarRicoRo/DACD-Practice-1">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/spoty.png" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Spotify + SQL</h3>
 
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
+                <p class="project-category">DACD</p>
 
               </a>
             </li>
@@ -960,10 +820,10 @@
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+      <article class="blog" data-page="extra">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">Extra</h2>
         </header>
 
         <section class="blog-posts">
@@ -974,25 +834,35 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/B2.png" alt="Design conferences in 2022" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <p class="blog-category">Certificate</p>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <h3 class="h3 blog-item-title">B2</h3>
+                </div>
 
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
+              </a>
+            </li>
 
+            <li class="blog-post-item">
+              <a href="https://courses.cognitiveclass.ai/certificates/bf41bdbc3de8498187b6842157c4ee15">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ibm.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Certificate</p>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">IBM Data Science</h3>
                 </div>
 
               </a>
@@ -1002,25 +872,16 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/GitHub.jpg" alt="Design digest #80" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <p class="blog-category">Certificate</p>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
+                  <h3 class="h3 blog-item-title">GitHub Management</h3>
                 </div>
 
               </a>
@@ -1030,25 +891,16 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/HTML.jpg" alt="UI interactions of the week" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <p class="blog-category">Course</p>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
+                  <h3 class="h3 blog-item-title">HTML Code Academy</h3>
                 </div>
 
               </a>
@@ -1058,81 +910,16 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/CSS.png" alt="The forgotten art of spacing" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <p class="blog-category">Course</p>
                   </div>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
+                  <h3 class="h3 blog-item-title">CSS Code Academy</h3>
                 </div>
 
               </a>
@@ -1160,9 +947,8 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14110.464901782947!2d-15.44196605!3d27.8523349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1667034689992!5m2!1ses!2ses"
+                    width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
